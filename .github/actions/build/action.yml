@@ -43,7 +43,7 @@ runs:
           ${{ inputs.java-version }}
           ${{ inputs.java-toolchain && '17' || '' }}
     - name: Set Up Gradle
-      uses: gradle/actions/setup-gradle@6cec5d49d4d6d4bb982fbed7047db31ea6d38f11 #v3.3.0
+      uses: gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda # v3.4.2
       with:
         cache-read-only: false
     - name: Configure Gradle Properties
